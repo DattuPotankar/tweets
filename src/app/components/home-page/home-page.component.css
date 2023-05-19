@@ -1,0 +1,9 @@
+.trans {
+    background: transparent;
+    /* width: 40vw; */
+    
+}
+.scrollbar {
+    height:90vh;
+    overflow-y: scroll;
+}

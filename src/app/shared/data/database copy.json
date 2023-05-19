@@ -1,0 +1,27 @@
+{
+"tweets": [
+    { "id": 1,
+      "text": "this is first tweet",
+      "description": "this is description of first tweet",
+      "hashtags": ["first", "post"]
+    },
+    {
+      "id": 2,
+      "text": "this is second tweet",
+      "description": "this is description of second tweet",
+      "hashtags": ["second", "description"]
+    },
+    {
+      "id":3, 
+      "text": "this is third tweet",
+      "description": "this is description of third tweet",
+      "hashtags": ["third", "final"]
+    },
+    {
+      "id": 4,
+      "text": "this is test tweet",
+      "description": "this is description of test tweet",
+      "hashtags": ["test", "test tweet"]
+    }
+]
+}

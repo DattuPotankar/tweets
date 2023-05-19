@@ -1,0 +1,29 @@
+<div class="card m-1 p-1 trans">
+    <div class="card-body">
+        <h5 class="card-title capitalize">{{ tweet.text }}</h5>
+        <p class="card-text capitalize">{{ tweet.description}}</p>
+
+        <button
+            type="button"
+            class="btn btn-primary m-2"
+            (click)="updateEditStatus()"
+        >
+            Edit
+        </button>
+        <button
+            type="button"
+            class="btn btn-primary m-2"
+            (click)="deleteTweet(tweet.id)"
+        >
+            Delete
+        </button>
+    </div>
+
+    <app-edit-tweet
+        *ngIf="showEditDialog"
+        (editEvent)="editTweet($event)"
+        [id]="tweet.id"
+    >
+    </app-edit-tweet>
+
+</div>

@@ -1,0 +1,6 @@
+.capitalize:first-letter {
+    text-transform: capitalize;
+}
+.trans {
+    background: transparent;
+  }

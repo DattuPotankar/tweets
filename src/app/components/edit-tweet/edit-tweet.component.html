@@ -1,0 +1,31 @@
+<div class="card m-10 trans">
+    <div class="card-header">
+        Edit Tweet
+    </div>
+    <div class="card-body">
+        <form #myForm="ngForm" (ngSubmit)="editTweet(myForm.value)">
+            <div class="form-group p-1">
+                <label for="formGroupTweet">Tweet</label>
+                <input
+                    type="text"
+                    class="form-control"
+                    name="text"
+                    placeholder="Tweet"
+                    [ngModel]="tweet.text"
+                >
+            </div>
+            <div class="form-group p-1">
+                <label for="formGroupDesc">Description</label>
+                <input
+                    type="text" 
+                    name="description"
+                    class="form-control"
+                    id="descriptionInput"
+                    placeholder="Tweet"
+                    [ngModel]="tweet?.description"
+                >
+            </div>
+            <button type="submit" class="btn btn-primary">Update</button>
+        </form>
+    </div>
+</div>

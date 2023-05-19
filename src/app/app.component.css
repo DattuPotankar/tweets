@@ -1,0 +1,38 @@
+@import url("https://fonts.cdnfonts.com/css/chirp-2");
+
+:root {
+  --black: #000;
+  --white: #fff;
+  --headings-white: #e7e9ea;
+  --blue: #1f9bf0;
+  --background-grey: #212327;
+  --light-grey: #71767a;
+  --grey: #181818;
+}
+
+body {
+  background-color: var(--black);
+  color: var(--white);
+  font-family: "Chirp", sans-serif;
+}
+
+.capitalize {
+    text-transform: capitalize;
+}
+.background {
+  /* background-image: url("../assets/images/img2.jpg"); */
+  /* background-repeat: no-repeat; */
+  /* background-size: cover; */
+  margin: 0;
+  padding: 0;
+  /* z-index:auto; */
+}
+.trans {
+  background: transparent;
+}
+*{
+  color:#71767a;
+}
+.app {
+  height: 100vh;
+}

@@ -1,0 +1,34 @@
+/* .header{
+    height: 10vh;
+    width: 100vw;
+    background-color: black;
+    color: white;
+}
+.header,h1{
+ position: sticky;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+} */
+.trans{
+    background: transparent;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: larger;
+}
+
+.navbar {
+    position: relative;
+}
+.brand {
+    /* position: absolute; */
+    left: 50%;
+    display: block;
+}
+.tweet-icon{
+    font-size:40px ;
+    color: black;
+    font-weight: 500;
+    font-style: oblique;
+}

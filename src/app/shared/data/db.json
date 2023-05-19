@@ -1,0 +1,46 @@
+{
+  "tweets": [
+    {
+      "text": "It's layoff season again 💔",
+      "description": "#startup #layoff #Google #Swiggy #Wipro #Jobs #UnemployedGraduates #India",
+      "id": 9
+    },
+    {
+      "text": "I'm NOT LAID OFF. I'm quitting. 💔",
+      "description": "I request you to read it till the end. This is by heart.   Can't write everything so had to attach a LinkedIn screenshot.   #layoff #layoffs #layoffs2023",
+      "id": 10
+    },
+    {
+      "text": "Exposure of #LIC in Adani Group is ₹77,000 CR.",
+      "description": "LIC has today lost ₹23,500 CR in invest value in Adani Group i.e at ₹53,000 CR against ₹77,000 CR.  LIC is money of People of India.  In any other country, heads would have rolled including that of FM.  #HindenburgReport",
+      "id": 11
+    },
+    {
+      "text": "Dattu",
+      "description": "potankar",
+      "id": 12
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "username": "Dattu",
+      "password": "dattu@123"
+    },
+    {
+      "id": 2,
+      "username": "Rajkiran",
+      "password": "raj@123"
+    },
+    {
+      "id": 3,
+      "username": "Chandu",
+      "password": "chandu@123"
+    },
+    {
+      "id": 4,
+      "username": "admin",
+      "password": "admin@123"
+    }
+  ]
+}
